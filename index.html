@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>경주월드</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div id="wrap">
+        <header id="header">
+            <div id="topBn_wrap">
+                <div class="topBn">
+                    <div class="bn_img">
+                        <a href=""><img src="img/boardFile_m.jpg" alt="" class="bn_mo"></a>
+                        <a href=""><img src="img/boardFile.jfif" alt="" class="bn_pc"></a>
+                    </div>
+                    <div class="bn_img">
+                        <a href=""><img src="img/boardFile02.jfif" alt="" class="bn_pc"></a>
+                    </div>
+                    <div class="bn_img">
+                        <a href=""><img src="img/boardFile03.jfif" alt="" class="bn_pc"></a>
+                    </div>
+                    <div class="bn_img">
+                        <a href=""><img src="img/boardFile04.jfif" alt="" class="bn_pc"></a>
+                    </div>
+                </div>
+                <div class="bn_point">
+                    <div class="point_list">
+                        <p class="bn_p1">1</p>
+                        <p>2</p>
+                        <p>3</p>
+                        <p>4</p>
+                    </div>
+                </div>
+            </div>
+            <div id="main_header">
+                <div class="mh_in">
+                    <span class="material-icons-outlined" style="font-size: 35px;">
+                        menu
+                    </span>
+                    <div class="h_pc1">
+                        <div class="hp_1">
+                            <a href="">경주월드 어뮤즈먼트</a>
+                        </div>
+                        <div class="hp_2">
+                            <a href="">스노우파크</a>
+                        </div>
+                    </div>
+                    <div class="main_logo">
+                        <a href=""><img src="img/logo.jpg" alt=""></a>
+                    </div>
+                    <div class="tik">
+                        <a href="">스마트 예약</a>
+                    </div>
+                    <div class="h_pc2">
+                        <div class="hp_in">
+                            <ul>
+                                <li><a href="">홈</a></li>
+                                <li><a href="">로그인</a></li>
+                                <li><a href="">회원가입</a></li>
+                                <li class="hp_point1"><a href="">단체예약</a></li>
+                                <li class="hp_point1"><a href="">연간이용권</a></li>
+                                <li class="leng"><a href="">언어선택</a></li>
+                            </ul>
+                        </div>
+                        <div class="h_search">
+                            <form action="">
+                                <input type="text" class="h_search" id="keyword" name="keyword" placeholder="">
+                                <button class="h1_btn">검색</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="main_list">
+                <div class="hm_list">
+                    <ul>
+                        <li><a href="">즐길거리</a></li>
+                        <li><a href="">요금/우대혜택</a></li>
+                        <li><a href="amusement/amusement.html">어뮤즈먼트 소개</a></li>
+                        <li><a href="">이용가이드</a></li>
+                        <li><a href="">소통공간</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="main_slide_list">
+                <div class="ms_in">
+                    
+                    <a href=""><img src="img/main_m.jpg" alt="" class="ms_mo"></a>
+                    <a href=""><img src="img/main.jpg" alt="" class="ms_pc"></a>
+                    <div class="ms_click">
+                        <a href="" class="prev">이전</a>
+                        <a href="" class="next">다음</a>
+                    </div>
+                    <div class="ms_etc">
+                        <div class="ms_page">
+                            <ul>
+                                <li class="mp_point"><a href="">1</a></li>
+                                <li class="mp_in"><a href="">2</a></li>
+                                <li class="mp_in"><a href="">3</a></li>
+                                <li class="mp_in"><a href="">4</a></li>
+                                <li class="mp_in"><a href="">5</a></li>
+                            </ul>
+                        </div>
+                        <div class="ms_btn">
+                            <a href="" class="clik">클릭</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="quick">
+                <div class="q_Day">
+                    <p class="q_01">오늘의 운영시간</p>
+                    <p class="q_02">10:00~18:00</p>
+                </div>
+                <div class="q_qna"><a href="">자주 묻는 질문</a></div>
+                <div class="go_top"><a href="">TOP</a></div>
+            </div>
+            <div class="DayTime">
+                <p class="Day">오늘의 운영시간</p>
+                <p class="Time">10:00~18:00</p>
+            </div>
+        </header>
+        <main id="main">
+            <div id="main1">
+                <div class="m1_top">
+                    <h2 class="m1_title">나에게 꼭 맞는 혜택</h2>
+                    <h4 class="m1_txt">할인은 크게! 노는건 즐겁게!</h4>
+                    <p class="m1_more"><a href="">혜택 더 알아보기</a></p>
+                </div>
+                <div class="m1_list">
+                    <ul>
+                        <li class="ml_01"><a href=""><img src="img/benefit1.jfif" alt=""></a></li>
+                        <li class="ml_02"><a href=""><img src="img/benefit2.jfif" alt=""></a></li>
+                        <li class="ml_03"><a href=""><img src="img/benefit3.jfif" alt=""></a></li>
+                        <li class="ml_04"><a href=""><img src="img/benefit4.jfif" alt=""></a></li>
+                        <li class="ml_05"><a href=""><img src="img/benefit5.jfif" alt=""></a></li>
+                        <li class="ml_06"><a href=""><img src="img/benefit6.jfif" alt=""></a></li>
+                        <li class="ml_07"><a href=""><img src="img/benefit7.jfif" alt=""></a></li>
+                        <li class="ml_08"><a href=""><img src="img/benefit8.jfif" alt=""></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="main2">
+                <div class="m2_top">
+                    <h2 class="m2_title">신나고 즐거운 어트랙션</h2>
+                    <div class="m2_txt">
+                        <ul>
+                            <li><a href="">위자드 가든</a></li>
+                            <li class="m2_point"><a href="">드래곤 밸리</a></li>
+                            <li><a href="">엑스존</a></li>
+                            <li><a href="">놀이기구</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="m2_list">
+                    <ul>
+                        <li class="m2_01"><a href=""><img src="img/world(1).jfif" alt=""></a></li>
+                        <li class="m2_02"><a href=""><img src="img/world(2).jfif" alt=""></a></li>
+                        <li class="m2_03"><a href=""><img src="img/world(3).jfif" alt=""></a></li>
+                        <li class="m2_04"><a href=""><img src="img/world(4).jfif" alt=""></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="main3">
+                <div class="m3_top">
+                    <h2 class="m3_title">지금 바로 생생한 현장소식</h2>
+                    <ul>
+                        <li class="m3_01"><a href="">뉴스&이벤트</a></li>
+                        <li class="m3_02"><a href="">운영시간</a></li>
+                        <li class="m3_03"><a href="">스마트예약</a></li>
+                    </ul>
+                </div>
+                <div class="main3_in">
+                    <div class="box1">
+                        <div class="b1_top">
+                            <h2 class="b1_title">NEWS & NOTICE</h2>
+                            <p class="b1_new">새로운 소식들</p>
+                        </div>
+                        <div class="b1_list">
+                            <ul>
+                                <li><a href="">롤코맨 정대철 X 경주월드</a></li>
+                                <li><a href="">겨울시즌 특별공연</a></li>
+                                <li><a href="">kb국민카드 제휴 종료 안내</a></li>
+                                <li><a href="">연간이용권 이용약관 일부 개정 안내</a></li>
+                                <li><a href="">제1,2 고객주차장 주차요금 변경안내</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="box2">
+                        <div class="b2_in">
+                            <div class="b2_Day">
+                                <h2 class="b2_title">TO DAY</h2>
+                                <p class="b2_toDay">오늘의 운영시간</p>
+                            </div>
+                            <div class="b2_list">
+                                <div class="b2_etc">
+                                    <h4 class="b2_To">11월 24일&#40;월&#41;</h4>
+                                    <h3 class="jikan">10 : 00 ~ 18 : 00</h3>
+                                </div>
+                                <div class="b2_txt">
+                                    <div class="b2_t01">
+                                        <p class="b2_time1">11:30</p>
+                                        <p class="b2_show">해피 클라운 SHOW</p>
+                                    </div>
+                                    <div class="b2_t02">
+                                        <p class="b2_time2">13:00</p>
+                                        <p class="b2_show">에블바디! 카니발 댄스파티</p>
+                                    </div>
+                                    <div class="b2_t03">
+                                        <p class="b2_time">14:30</p>
+                                        <p class="b2_show">GO GO 레트로 땐-스 쇼</p>
+                                    </div>
+                                </div>
+                                <div class="b2_more">
+                                    <p class="show_more"><a href="">공연시간 더보기</a></p>
+                                    <p class="world_more"><a href="">어트랙션 운휴안내</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box3">
+                        <div class="b3_top">
+                            <div class="b3_Day">
+                                <h2 class="b3_title">방문 전에 미리 준비!</h2>
+                            </div>
+                            <div class="b3_list">
+                                <div class="b3_l01">
+                                    <p class="b3_01"><a href="">이용권</a></p>
+                                    <p class="b3_02"><a href="">연간권</a></p>
+                                </div>
+                                <div class="b3_l02">
+                                    <p class="b3_03"><a href="">레스토랑</a></p>
+                                    <p class="b3_04"><a href="">추천코스</a></p>
+                                </div>
+                                <div class="b3_l03">
+                                    <p class="b3_05"><a href="">주차안내</a></p>
+                                    <p class="b3_06"><a href="">분실물 센터</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="b3_tr">
+                            <div class="b3tr_img"><img src="img/noto-v1_bus.png" alt=""></div>
+                            <div class="tr_txt">
+                                <div class="tr_title"><p>경주월드<br>대중교통 이용방법</p></div>
+                                <div class="tr_list">
+                                    <p class="tr_sub"><a href="">기차</a></p>
+                                    <p class="tr_bus"><a href="">버스</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="main4">
+                <div class="m4_button">
+                    <p class="m4_prev"><a href="">왼쪽</a></p>
+                    <p class="m4_next"><a href="">오른쪽</a></p>
+                </div>
+                <div class="m4_inner">
+                    <h2 class="m4_title">눈으로 즐기는 <span class="m4_tin">가이드</span></h2>
+                    <div class="m4_list">
+                        <ul>
+                            <li class="m4_01">
+                                <a href="">
+                                <p class="m4_img">
+                                    <img src="img/gide(1).jfif" alt="">
+                                </p>
+                                <p class="m4_etc">
+                                    치즈몽땅
+                                </p>
+                                <p class="m4_mtxt">
+                                    치.즈.몽.땅 황금십원빵
+                                </p>
+                                <p class="m4_txt">
+                                    인싸들의 간식! 치.즈.몽.땅 황금십원빵
+                                </p>
+                                </a>
+                            </li>
+                            <li class="m4_02">
+                                <a href="">
+                                <p class="m4_img">
+                                    <img src="img/gide(2).jfif" alt="">
+                                </p>
+                                <p class="m4_etc">
+                                    젤리버디
+                                </p>
+                                <p class="m4_mtxt">
+                                    경주월드에 데일리라이크가 떴다
+                                </p>
+                                <p class="m4_txt">
+                                    경주월드 기념품샵 드롤의 마켓 플라자에 #젤리버디 가 놀러왔대!!!
+                                </p>
+                                </a>
+                            </li>
+                            <li class="m4_03">
+                                <a href="">
+                                <p class="m4_img">
+                                    <img src="img/gide(3).jfif" alt="">
+                                </p>
+                                <p class="m4_etc">
+                                    경주월드
+                                </p>
+                                <p class="m4_mtxt">
+                                    함께하면 더 즐거운 경주월드
+                                </p>
+                                <p class="m4_txt">
+                                    경주월드에서 함께하면 행복은 두배♥
+                                </p>
+                                </a>
+                            </li>
+                            <li class="m4_04">
+                                <a href="">
+                                <p class="m4_img">
+                                    <img src="img/gide(4).jfif" alt="">
+                                </p>
+                                <p class="m4_etc">
+                                    우주저렴
+                                </p>
+                                <p class="m4_mtxt">
+                                    우주를 즐기는 방법
+                                </p>
+                                <p class="m4_txt">
+                                    경주월드에서도 우주와 똑같은 무중력을 느낄 수 있다!?
+                                </p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="main5">
+                <h2 class="m5_title">경주월드 <span class="m5_tin">인스타그램</span></h2>
+                <div class="m5_list">
+                    <ul>
+                        <li class="m5_01"><a href="">
+                            <p class="m5_img"><img src="img/insta(1).jfif" alt=""></p>
+                            <p class="m5_logo">로고</p>
+                            <p class="m5_txt">
+                                경주에서 내 짝꿍과 가장 해보고싶은 데이트는?!<br>
+                                한국의 전통을 흠뻑 느낄 수 있는 한복, 한옥 데이트 💘
+                            </p>
+                        </a></li>
+                        <li class="m5_02"><a href="">
+                            <p class="m5_img"><img src="img/insta(2).jfif" alt=""></p>
+                            <p class="m5_logo">로고</p>
+                            <p class="m5_txt">
+                                우리에게 많은 즐거움을 주었던 비룡열차 자리에 의문의 박스하나❓<br>
+                                하늘에서 똑 떨어진 것만 같은 비주얼에 …
+                            </p>
+                        </a></li>
+                        <li class="m5_03"><a href="">
+                            <p class="m5_img"><img src="img/insta(3).jfif" alt=""></p>
+                            <p class="m5_logo">로고</p>
+                            <p class="m5_txt">
+                                아-듀! 경주월드 관람차&#127905;<br>
+                                밤낮 가리지 않고 언제나 반짝이며 우리에게 행복과 기쁨, 추억을 만들어 주었던 경주월드 …
+                            </p>
+                        </a></li>
+                        <li class="m5_04"><a href="">
+                            <p class="m5_img"><img src="img/insta(4).jfif" alt=""></p>
+                            <p class="m5_logo">로고</p>
+                            <p class="m5_txt">
+                                나는 요즘 24시간이 모자라¨<br>
+                                왜냐구..? 도투락 빌리지2 때문에!!&#127881; 꿀잼 놀거리부터 쫀맛 먹거리, 귀염뽀쨕 …
+                            </p>
+                        </a></li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+        <foother id="footer">
+            <div id="footer1">
+                <div class="sns_mo">
+                    <ul>
+                        <li class="face"><a href="">공식페이스북</a></li>
+                        <li class="blog"><a href="">공식블로그</a></li>
+                        <li class="ins"><a href="">공식인스타그램</a></li>
+                        <li class="youbu"><a href="">공식유튜브</a></li>
+                        <li class="tictok"><a href="">공식틱톡</a></li>
+                        <li class="kakao"><a href=""><공식카카오톡채널</a></li>
+                    </ul>
+                </div>
+                <div class="sns_pc">
+                    <ul>
+                        <li class="pc_face">
+                            <span class="f_logo">로고</span>
+                            <a href="">공식페이스북</a></li>
+                        <li class="pc_blog">
+                            <span class="b_logo">로고</span>
+                            <a href="">공식블로그</a></li>
+                        <li class="pc_ins">
+                            <span class="i_logo">로고</span>
+                            <a href="">공식인스타그램</a></li>
+                        <li class="pc_youbu">
+                            <span class="y_logo">로고</span>
+                            <a href="">공식유튜브</a></li>
+                        <li class="pc_tictok">
+                            <span class="t_logo">로고</span>
+                            <a href="">공식틱톡</a></li>
+                        <li class="pc_kakao">
+                            <span class="k_logo">로고</span>
+                            <a href="">공식카카오톡채널</a></li>
+                    </ul>
+                </div>
+                <div class="f_top">
+                    <a href="">TOP</a>
+                </div>
+            </div>
+            <div id="footer2">
+                <div class="foother_mo">
+                    <div class="f2_list1">
+                        <ul>
+                            <li><a href="">경주월드 소개</a></li>
+                            <li><a href="">이용약관</a></li>
+                            <li><a href="">개인정보취급방침</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">제휴문의</a></li>
+                            <li><a href="">채용안내 및 지원</a></li>
+                            <li><a href="">이메일 무단 수집 거부</a></li>
+                        </ul>
+                    </div>
+                    <div class="f_logo_mo">
+                        <img src="img/f_logo.jpg" alt="">
+                    </div>
+                    <div class="f_list2">
+                        <ul>
+                            <li><a href="">경주월드 주식회사</a></li>
+                            <li><a href="">주소:경주시 보문로 544(천군동) 38117</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">사업자등록번호:505-85-15586</a></li>
+                            <li><a href="">대표이사:정원기,함영관</a></li>
+                        </ul>
+                    </div>
+                    <p class="f_etc">
+                        ⓒ GyeongjuWorld. All rights reserved.
+                    </p>
+                </div>
+                <div class="foother_pc">
+                    <div class="f_logo_pc">
+                        <img src="../img/f_logo.jpg" alt="">
+                    </div>
+                    <div class="f2_txt">
+                        <div class="fp_list1">
+                            <ul>
+                                <li><a href="">경주월드 소개</a></li>
+                                <li><a href="">이용약관</a></li>
+                                <li><a href="">개인정보취급방침</a></li>
+                                <li><a href="">제휴문의</a></li>
+                                <li><a href="">채용안내 및 지원</a></li>
+                                <li><a href="">이메일 무단 수집 거부</a></li>
+                            </ul>
+                            <div class="f2_more">
+                                <a href="">관련사이트 바로가기</a>
+                            </div>
+                        </div>
+                        <div class="fp_list2">
+                            <ul>
+                                <li><a href="">경주월드 주식회사(경주지점)</a></li>
+                                <li><a href="">주소:경주시 보문로 544(천군동) 38117</a></li>
+                                <li><a href="">대표전화 : 1544-8785</a></li>
+                                <li><a href="">사업자등록번호:505-85-15586</a></li>
+                                <li><a href="">대표이사:정원기,함영관</a></li>
+                            </ul>
+                        </div>
+                        <p class="f_etc">
+                            ⓒ GyeongjuWorld. All rights reserved.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </foother>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/slick.min.js"></script>
+</body>
+</html>
